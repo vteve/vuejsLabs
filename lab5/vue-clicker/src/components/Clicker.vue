@@ -20,7 +20,7 @@ const increment = () => {
 
 <template>
     <div class="clicker">
-        <slot>
+        <slot :increment="increment">
             <button @click="increment">Click me!</button>
         </slot>
         <p>Count: {{ count }}</p>
