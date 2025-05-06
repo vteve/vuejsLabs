@@ -1,0 +1,58 @@
+interface Observer {
+  update(data: unknown): void;
+}
+
+interface Observable {
+  subscribe(observer: Observer): void;
+  unsubscribe(observer: Observer): void;
+  notify(data: unknown): void;
+}
+
+class NewsPublisher implements Observable {
+  private observers: Observer[] = [];
+
+  subscribe(observer: Observer): void {
+    this.observers.push(observer);
+  }
+
+  unsubscribe(observer: Observer): void {
+    this.observers = this.observers.filter(obs => obs !== observer);
+  }
+
+  notify(data: unknown): void {
+    this.observers.forEach(observer => observer.update(data));
+  }
+
+  publishNews(news: string): void {
+    console.log(`Breaking news: ${news}`);
+    this.notify(news);
+  }
+}
+
+class EmailSubscriber implements Observer {
+  update(data: unknown): void {
+    if (typeof data === 'string') {
+      console.log(`Email subscriber received: ${data}`);
+    }
+  }
+}
+
+class SMSSSubscriber implements Observer {
+  update(data: unknown): void {
+    if (typeof data === 'string') {
+      console.log(`SMS subscriber received: ${data}`);
+    }
+  }
+}
+
+const publisher = new NewsPublisher();
+const emailSubscriber = new EmailSubscriber();
+const smsSubscriber = new SMSSSubscriber();
+
+publisher.subscribe(emailSubscriber);
+publisher.subscribe(smsSubscriber);
+
+publisher.publishNews("TypeScript 5.0 released!");
+
+publisher.unsubscribe(emailSubscriber);
+publisher.publishNews("Another news without email subscribers");
