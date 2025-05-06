@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Задания</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>JavaScript Задания</h1>
+
+    <div class="task">
+        <h2>Задание 1: Счетчик посещений</h2>
+        <p>При загрузке страницы показывает, сколько раз вы ее посещали (данные сохраняются после перезагрузки).</p>
+        <button onclick="countOfVisit()">Запустить</button>
+    </div>
+
+    <div class="task">
+        <h2>Задание 2: Загрузка картинок (с порядком)</h2>
+        <p>Запрашивает 5 ссылок на картинки и отображает их в порядке ввода.</p>
+        <button onclick="loadImagesInOrder()">Запустить</button>
+        <div id="imageContainer1"></div>
+    </div>
+
+    <div class="task">
+        <h2>Задание 3: Загрузка картинок (без порядка)</h2>
+        <p>Запрашивает 5 ссылок на картинки и отображает их по мере загрузки.</p>
+        <button onclick="loadImagesUnordered()">Запустить</button>
+        <div id="imageContainer2"></div>
+    </div>
+
+    <div class="task">
+        <h2>Задание 4: Загрузка картинок (async/await) с порядком</h2>
+        <p>Асинхронная загрузка картинок с сохранением порядка.</p>
+        <button onclick="loadImagesInOrderAsync()">Запустить</button>
+        <div id="imageContainer3"></div>
+    </div>
+
+    <div class="task">
+        <h2>Задание 5: Загрузка картинок (async/await) без порядка</h2>
+        <p>Асинхронная загрузка картинок без сохранения порядка.</p>
+        <button onclick="loadImagesUnorderedAsync()">Запустить</button>
+    </div>
+
+    <div class="task">
+        <h2>Задание 6: Проверка IP-адресов</h2>
+        <p>Проверяет 5 IP-адресов на принадлежность к запрещенным странам.</p>
+        <button onclick="checkIPs()">Запустить</button>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>

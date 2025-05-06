@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Защищенная страница</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+        h1 {
+            color: #333;
+        }
+        em {
+            font-style: italic;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #e6f7ff;
+        }
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .old-price {
+            text-decoration: line-through;
+        }
+        .store-link {
+            color: blue;
+            text-decoration: none;
+        }
+        .store-link:hover {
+            text-decoration: underline;
+        }
+        .colored-text {
+            display: inline-block;
+        }
+        .colored-text span:nth-child(odd) {
+            color: red;
+        }
+        .colored-text span:nth-child(even) {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Добро пожаловать!</h1>
+    
+    <p>
+        <em class="colored-text">
+            <span>П</span><span>р</span><span>и</span><span>в</span><span>е</span><span>т</span><span>с</span><span>т</span><span>в</span><span>у</span><span>е</span><span>м</span>
+        </em> 
+        <u class="colored-text">
+            <span>в</span><span>а</span><span>с</span>
+        </u> 
+        <b class="colored-text">
+            <span>в</span> <span>н</span><span>а</span><span>ш</span><span>е</span><span>м</span>
+        </b> 
+        <a href="https://example.com" class="store-link">магазине</a>!
+    </p>
+    
+    <p>&lt;h1&gt; Теорема Пифагора &lt;/h1&gt; : c<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup></p>
+    
+    <table>
+        <tr>
+            <td colspan="2">Информация</td>
+        </tr>
+        <tr>
+            <td>Старая цена: <span class="old-price">1000</span> ₽</td>
+            <td>Новая цена: 500 ₽</td>
+        </tr>
+    </table>
+
+    <script src="script1.js"></script>
+</body>
+</html>

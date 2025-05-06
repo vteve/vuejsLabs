@@ -1,0 +1,17 @@
+картинки:
+https://proza.ru/pics/2022/12/10/960.jpg
+https://distribution.faceit-cdn.net/images/ff5f04c2-018a-44f6-bab7-3b911d1ba117.jpeg
+https://i.pinimg.com/originals/1d/ba/48/1dba48d140f13ed5d84454af70dbc7ed.jpg
+https://avatars.mds.yandex.net/get-mpic/1642819/img_id3978270262041827737.jpeg/orig
+https://i.pinimg.com/originals/d6/d3/0e/d6d30ec7d9f00d4fcf62494e24cc3675.png
+
+айпи:
+168.232.144.0
+109.122.222.0
+101.128.64.0
+103.213.214.0
+109.104.146.0
+
+плохие айпи (парочка):
+1.116.0.0
+103.112.177.0
