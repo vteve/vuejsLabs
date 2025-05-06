@@ -1,0 +1,23 @@
+.numbers-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+
+    .number {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-weight: bold;
+    }
+
+    @for $i from 1 through 100 {
+        .number-#{$i} {
+            color: if($i > 50, white, black);
+            background-color: rgb($i, (256 - $i), 0);
+        }
+    }
+}

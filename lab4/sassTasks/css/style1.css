@@ -1,0 +1,417 @@
+.numbers-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+}
+.numbers-container .number {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: bold;
+}
+.numbers-container .number-1 {
+  color: black;
+  background-color: rgb(1, 255, 0);
+}
+.numbers-container .number-2 {
+  color: black;
+  background-color: rgb(2, 254, 0);
+}
+.numbers-container .number-3 {
+  color: black;
+  background-color: rgb(3, 253, 0);
+}
+.numbers-container .number-4 {
+  color: black;
+  background-color: rgb(4, 252, 0);
+}
+.numbers-container .number-5 {
+  color: black;
+  background-color: rgb(5, 251, 0);
+}
+.numbers-container .number-6 {
+  color: black;
+  background-color: rgb(6, 250, 0);
+}
+.numbers-container .number-7 {
+  color: black;
+  background-color: rgb(7, 249, 0);
+}
+.numbers-container .number-8 {
+  color: black;
+  background-color: rgb(8, 248, 0);
+}
+.numbers-container .number-9 {
+  color: black;
+  background-color: rgb(9, 247, 0);
+}
+.numbers-container .number-10 {
+  color: black;
+  background-color: rgb(10, 246, 0);
+}
+.numbers-container .number-11 {
+  color: black;
+  background-color: rgb(11, 245, 0);
+}
+.numbers-container .number-12 {
+  color: black;
+  background-color: rgb(12, 244, 0);
+}
+.numbers-container .number-13 {
+  color: black;
+  background-color: rgb(13, 243, 0);
+}
+.numbers-container .number-14 {
+  color: black;
+  background-color: rgb(14, 242, 0);
+}
+.numbers-container .number-15 {
+  color: black;
+  background-color: rgb(15, 241, 0);
+}
+.numbers-container .number-16 {
+  color: black;
+  background-color: rgb(16, 240, 0);
+}
+.numbers-container .number-17 {
+  color: black;
+  background-color: rgb(17, 239, 0);
+}
+.numbers-container .number-18 {
+  color: black;
+  background-color: rgb(18, 238, 0);
+}
+.numbers-container .number-19 {
+  color: black;
+  background-color: rgb(19, 237, 0);
+}
+.numbers-container .number-20 {
+  color: black;
+  background-color: rgb(20, 236, 0);
+}
+.numbers-container .number-21 {
+  color: black;
+  background-color: rgb(21, 235, 0);
+}
+.numbers-container .number-22 {
+  color: black;
+  background-color: rgb(22, 234, 0);
+}
+.numbers-container .number-23 {
+  color: black;
+  background-color: rgb(23, 233, 0);
+}
+.numbers-container .number-24 {
+  color: black;
+  background-color: rgb(24, 232, 0);
+}
+.numbers-container .number-25 {
+  color: black;
+  background-color: rgb(25, 231, 0);
+}
+.numbers-container .number-26 {
+  color: black;
+  background-color: rgb(26, 230, 0);
+}
+.numbers-container .number-27 {
+  color: black;
+  background-color: rgb(27, 229, 0);
+}
+.numbers-container .number-28 {
+  color: black;
+  background-color: rgb(28, 228, 0);
+}
+.numbers-container .number-29 {
+  color: black;
+  background-color: rgb(29, 227, 0);
+}
+.numbers-container .number-30 {
+  color: black;
+  background-color: rgb(30, 226, 0);
+}
+.numbers-container .number-31 {
+  color: black;
+  background-color: rgb(31, 225, 0);
+}
+.numbers-container .number-32 {
+  color: black;
+  background-color: rgb(32, 224, 0);
+}
+.numbers-container .number-33 {
+  color: black;
+  background-color: rgb(33, 223, 0);
+}
+.numbers-container .number-34 {
+  color: black;
+  background-color: rgb(34, 222, 0);
+}
+.numbers-container .number-35 {
+  color: black;
+  background-color: rgb(35, 221, 0);
+}
+.numbers-container .number-36 {
+  color: black;
+  background-color: rgb(36, 220, 0);
+}
+.numbers-container .number-37 {
+  color: black;
+  background-color: rgb(37, 219, 0);
+}
+.numbers-container .number-38 {
+  color: black;
+  background-color: rgb(38, 218, 0);
+}
+.numbers-container .number-39 {
+  color: black;
+  background-color: rgb(39, 217, 0);
+}
+.numbers-container .number-40 {
+  color: black;
+  background-color: rgb(40, 216, 0);
+}
+.numbers-container .number-41 {
+  color: black;
+  background-color: rgb(41, 215, 0);
+}
+.numbers-container .number-42 {
+  color: black;
+  background-color: rgb(42, 214, 0);
+}
+.numbers-container .number-43 {
+  color: black;
+  background-color: rgb(43, 213, 0);
+}
+.numbers-container .number-44 {
+  color: black;
+  background-color: rgb(44, 212, 0);
+}
+.numbers-container .number-45 {
+  color: black;
+  background-color: rgb(45, 211, 0);
+}
+.numbers-container .number-46 {
+  color: black;
+  background-color: rgb(46, 210, 0);
+}
+.numbers-container .number-47 {
+  color: black;
+  background-color: rgb(47, 209, 0);
+}
+.numbers-container .number-48 {
+  color: black;
+  background-color: rgb(48, 208, 0);
+}
+.numbers-container .number-49 {
+  color: black;
+  background-color: rgb(49, 207, 0);
+}
+.numbers-container .number-50 {
+  color: black;
+  background-color: rgb(50, 206, 0);
+}
+.numbers-container .number-51 {
+  color: white;
+  background-color: rgb(51, 205, 0);
+}
+.numbers-container .number-52 {
+  color: white;
+  background-color: rgb(52, 204, 0);
+}
+.numbers-container .number-53 {
+  color: white;
+  background-color: rgb(53, 203, 0);
+}
+.numbers-container .number-54 {
+  color: white;
+  background-color: rgb(54, 202, 0);
+}
+.numbers-container .number-55 {
+  color: white;
+  background-color: rgb(55, 201, 0);
+}
+.numbers-container .number-56 {
+  color: white;
+  background-color: rgb(56, 200, 0);
+}
+.numbers-container .number-57 {
+  color: white;
+  background-color: rgb(57, 199, 0);
+}
+.numbers-container .number-58 {
+  color: white;
+  background-color: rgb(58, 198, 0);
+}
+.numbers-container .number-59 {
+  color: white;
+  background-color: rgb(59, 197, 0);
+}
+.numbers-container .number-60 {
+  color: white;
+  background-color: rgb(60, 196, 0);
+}
+.numbers-container .number-61 {
+  color: white;
+  background-color: rgb(61, 195, 0);
+}
+.numbers-container .number-62 {
+  color: white;
+  background-color: rgb(62, 194, 0);
+}
+.numbers-container .number-63 {
+  color: white;
+  background-color: rgb(63, 193, 0);
+}
+.numbers-container .number-64 {
+  color: white;
+  background-color: rgb(64, 192, 0);
+}
+.numbers-container .number-65 {
+  color: white;
+  background-color: rgb(65, 191, 0);
+}
+.numbers-container .number-66 {
+  color: white;
+  background-color: rgb(66, 190, 0);
+}
+.numbers-container .number-67 {
+  color: white;
+  background-color: rgb(67, 189, 0);
+}
+.numbers-container .number-68 {
+  color: white;
+  background-color: rgb(68, 188, 0);
+}
+.numbers-container .number-69 {
+  color: white;
+  background-color: rgb(69, 187, 0);
+}
+.numbers-container .number-70 {
+  color: white;
+  background-color: rgb(70, 186, 0);
+}
+.numbers-container .number-71 {
+  color: white;
+  background-color: rgb(71, 185, 0);
+}
+.numbers-container .number-72 {
+  color: white;
+  background-color: rgb(72, 184, 0);
+}
+.numbers-container .number-73 {
+  color: white;
+  background-color: rgb(73, 183, 0);
+}
+.numbers-container .number-74 {
+  color: white;
+  background-color: rgb(74, 182, 0);
+}
+.numbers-container .number-75 {
+  color: white;
+  background-color: rgb(75, 181, 0);
+}
+.numbers-container .number-76 {
+  color: white;
+  background-color: rgb(76, 180, 0);
+}
+.numbers-container .number-77 {
+  color: white;
+  background-color: rgb(77, 179, 0);
+}
+.numbers-container .number-78 {
+  color: white;
+  background-color: rgb(78, 178, 0);
+}
+.numbers-container .number-79 {
+  color: white;
+  background-color: rgb(79, 177, 0);
+}
+.numbers-container .number-80 {
+  color: white;
+  background-color: rgb(80, 176, 0);
+}
+.numbers-container .number-81 {
+  color: white;
+  background-color: rgb(81, 175, 0);
+}
+.numbers-container .number-82 {
+  color: white;
+  background-color: rgb(82, 174, 0);
+}
+.numbers-container .number-83 {
+  color: white;
+  background-color: rgb(83, 173, 0);
+}
+.numbers-container .number-84 {
+  color: white;
+  background-color: rgb(84, 172, 0);
+}
+.numbers-container .number-85 {
+  color: white;
+  background-color: rgb(85, 171, 0);
+}
+.numbers-container .number-86 {
+  color: white;
+  background-color: rgb(86, 170, 0);
+}
+.numbers-container .number-87 {
+  color: white;
+  background-color: rgb(87, 169, 0);
+}
+.numbers-container .number-88 {
+  color: white;
+  background-color: rgb(88, 168, 0);
+}
+.numbers-container .number-89 {
+  color: white;
+  background-color: rgb(89, 167, 0);
+}
+.numbers-container .number-90 {
+  color: white;
+  background-color: rgb(90, 166, 0);
+}
+.numbers-container .number-91 {
+  color: white;
+  background-color: rgb(91, 165, 0);
+}
+.numbers-container .number-92 {
+  color: white;
+  background-color: rgb(92, 164, 0);
+}
+.numbers-container .number-93 {
+  color: white;
+  background-color: rgb(93, 163, 0);
+}
+.numbers-container .number-94 {
+  color: white;
+  background-color: rgb(94, 162, 0);
+}
+.numbers-container .number-95 {
+  color: white;
+  background-color: rgb(95, 161, 0);
+}
+.numbers-container .number-96 {
+  color: white;
+  background-color: rgb(96, 160, 0);
+}
+.numbers-container .number-97 {
+  color: white;
+  background-color: rgb(97, 159, 0);
+}
+.numbers-container .number-98 {
+  color: white;
+  background-color: rgb(98, 158, 0);
+}
+.numbers-container .number-99 {
+  color: white;
+  background-color: rgb(99, 157, 0);
+}
+.numbers-container .number-100 {
+  color: white;
+  background-color: rgb(100, 156, 0);
+}
+
+/*# sourceMappingURL=style1.css.map */

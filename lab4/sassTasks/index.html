@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers Grid</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <div class="numbers-container" id="numbers-grid"></div>
+
+    <script>
+        // Генерируем элементы на клиенте
+        const container = document.getElementById('numbers-grid');
+        for (let i = 1; i <= 100; i++) {
+            const numberEl = document.createElement('div');
+            numberEl.className = `number number-${i}`;
+            numberEl.textContent = i;
+            container.appendChild(numberEl);
+        }
+    </script>
+</body>
+</html>
